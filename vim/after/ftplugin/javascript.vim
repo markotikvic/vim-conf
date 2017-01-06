@@ -1,2 +1,2 @@
-setlocal shiftwidth=4
-setlocal tabstop=4
+" JavaScript
+setlocal softtabstop=4 shiftwidth=4 expandtab
