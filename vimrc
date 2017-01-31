@@ -6,6 +6,9 @@ filetype plugin indent on
 set autoindent
 set tabstop=8 shiftwidth=8 noexpandtab
 
+" search
+set incsearch
+
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
 
