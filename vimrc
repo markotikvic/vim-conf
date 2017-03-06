@@ -16,3 +16,10 @@ syntax off
 
 " Rust specific
 au BufRead,BufNewFile *.rs set filetype=rust
+
+" Color
+syntax on
+colorscheme com_only
+
+" Trailing whitespaces
+match ErrorMsg '\s\+$'
