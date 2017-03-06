@@ -22,7 +22,7 @@ hi MatchParen	ctermfg=15	ctermbg=6	cterm=NONE
 hi NonText	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi Normal	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi PreProc	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Pmenu	ctermfg=15	ctermbg=NONE	cterm=NONE
+hi Pmenu	ctermfg=15	ctermbg=5	cterm=NONE
 hi PmenuSbar	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi PmenuSel	ctermfg=0	ctermbg=7	cterm=NONE
 hi PmenuThumb	ctermfg=15	ctermbg=NONE	cterm=NONE
@@ -37,6 +37,6 @@ hi StatusLine	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi STatusLinNC	ctermfg=0	ctermbg=7	cterm=NONE
 hi String	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi TabFillLine	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Todo		ctermfg=5	ctermbg=NONE	cterm=NONE
+hi Todo		ctermfg=5	ctermbg=6	cterm=NONE
 hi Type		ctermfg=15	ctermbg=NONE	cterm=NONE
 hi Visual	ctermfg=0	ctermbg=7	cterm=NONE
