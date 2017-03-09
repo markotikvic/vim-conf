@@ -6,37 +6,39 @@ if exists("syntax_on")
 	syntax reset
 endif
 
+set t_Co=256
+
 let g:colors_name="com_only"
 
-hi Boolean	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Comment	ctermfg=3	ctermbg=NONE	cterm=NONE
-hi Constant	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi CursorColumn	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi CursorLine	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi CursorLineNr	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Directory	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Error	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Identifier	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi LineNr	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi MatchParen	ctermfg=15	ctermbg=6	cterm=NONE
-hi NonText	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Normal	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi PreProc	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Pmenu	ctermfg=15	ctermbg=5	cterm=NONE
-hi PmenuSbar	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi PmenuSel	ctermfg=0	ctermbg=6	cterm=NONE
-hi PmenuThumb	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Search	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Special	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi SpellBad	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi SpellCap	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi SpellLocal	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi SpellRare	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Statement	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi StatusLine	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi STatusLinNC	ctermfg=0	ctermbg=7	cterm=NONE
-hi String	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi TabFillLine	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Todo		ctermfg=3	ctermbg=5	cterm=NONE
-hi Type		ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Visual	ctermfg=0	ctermbg=7	cterm=NONE
+hi Boolean	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Comment	ctermfg=226	ctermbg=NONE	cterm=NONE
+hi Constant	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi CursorColumn	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi CursorLine	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi CursorLineNr	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Directory	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Error	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Identifier	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi LineNr	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi MatchParen	ctermfg=255	ctermbg=51	cterm=NONE
+hi NonText	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Normal	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi PreProc	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Pmenu	ctermfg=255	ctermbg=201	cterm=NONE
+hi PmenuSbar	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi PmenuSel	ctermfg=16	ctermbg=51	cterm=NONE
+hi PmenuThumb	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Search	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Special	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi SpellBad	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi SpellCap	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi SpellLocal	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi SpellRare	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Statement	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi StatusLine	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi STatusLinNC	ctermfg=16	ctermbg=250	cterm=NONE
+hi String	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi TabFillLine	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Todo		ctermfg=226	ctermbg=201	cterm=NONE
+hi Type		ctermfg=255	ctermbg=NONE	cterm=NONE
+hi Visual	ctermfg=16	ctermbg=250	cterm=NONE
