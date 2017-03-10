@@ -20,7 +20,7 @@ hi Directory	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi Error	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi Identifier	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi LineNr	ctermfg=255	ctermbg=NONE	cterm=NONE
-hi MatchParen	ctermfg=255	ctermbg=51	cterm=NONE
+hi MatchParen	ctermfg=255	ctermbg=201	cterm=NONE
 hi NonText	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi Normal	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi PreProc	ctermfg=255	ctermbg=NONE	cterm=NONE
@@ -35,7 +35,7 @@ hi SpellCap	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi SpellLocal	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi SpellRare	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi Statement	ctermfg=255	ctermbg=NONE	cterm=NONE
-hi StatusLine	ctermfg=255	ctermbg=NONE	cterm=NONE
+hi StatusLine	ctermfg=255	ctermbg=201	cterm=NONE
 hi STatusLinNC	ctermfg=16	ctermbg=250	cterm=NONE
 hi String	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi TabFillLine	ctermfg=255	ctermbg=NONE	cterm=NONE
