@@ -35,7 +35,7 @@ hi SpellLocal	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi SpellRare	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi Statement	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi StatusLine	ctermfg=0	ctermbg=15	cterm=NONE
-hi STatusLineNC	ctermfg=15	ctermbg=7	cterm=NONE
+hi STatusLineNC	ctermfg=15	ctermbg=4	cterm=NONE
 hi String	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi TabFillLine	ctermfg=255	ctermbg=NONE	cterm=NONE
 hi Todo		ctermfg=10	ctermbg=NONE	cterm=NONE
