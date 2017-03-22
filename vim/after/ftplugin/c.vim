@@ -1,2 +1,2 @@
 " C
-setlocal tabstop=8 shiftwidth=8 noexpandtab
+setlocal tabstop=4 shiftwidth=4 noexpandtab
