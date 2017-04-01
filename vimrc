@@ -17,7 +17,8 @@ au BufRead,BufNewFile *.rs set filetype=rust
 
 " Color
 syntax on
-colorscheme behelit
+set t_Co=256
+colorscheme mtk256
 
 " Trailing whitespaces
 match ErrorMsg '\s\+$'
