@@ -8,10 +8,9 @@ endif
 
 let g:colors_name="mtk256"
 
-hi Boolean	ctermfg=3	ctermbg=NONE	cterm=NONE
+hi Boolean	ctermfg=9	ctermbg=NONE	cterm=NONE
 hi Comment	ctermfg=6	ctermbg=NONE	cterm=NONE
-hi Constant	ctermfg=3	ctermbg=NONE	cterm=NONE
-"hi Conditional	ctermfg=13	ctermbg=NONE	cterm=NONE
+hi Constant	ctermfg=9	ctermbg=NONE	cterm=NONE
 hi STatusLineNC	ctermfg=0	ctermbg=15	cterm=NONE
 hi CursorColumn	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi CursorLine	ctermfg=15	ctermbg=NONE	cterm=NONE
