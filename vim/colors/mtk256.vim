@@ -19,7 +19,7 @@ hi Directory	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi Error	ctermfg=1	ctermbg=9	cterm=NONE
 hi Identifier	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi LineNr	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi MatchParen	ctermfg=0	ctermbg=15	cterm=NONE
+hi MatchParen	ctermfg=15	ctermbg=4	cterm=NONE
 hi NonText	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi Normal	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi PreProc	ctermfg=12	ctermbg=NONE	cterm=NONE
