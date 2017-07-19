@@ -21,7 +21,7 @@ hi Identifier	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi LineNr	ctermfg=15	ctermbg=NONE	cterm=NONE
 hi MatchParen	ctermfg=15	ctermbg=4	cterm=NONE
 hi NonText	ctermfg=15	ctermbg=NONE	cterm=NONE
-hi Normal	ctermfg=15	ctermbg=NONE	cterm=NONE
+hi Normal	ctermfg=15	ctermbg=233	cterm=NONE
 hi PreProc	ctermfg=12	ctermbg=NONE	cterm=NONE
 hi Pmenu	ctermfg=15	ctermbg=8	cterm=NONE
 hi PmenuSbar	ctermfg=15	ctermbg=NONE	cterm=NONE
