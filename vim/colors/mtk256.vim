@@ -33,7 +33,7 @@ hi SpellBad	ctermfg=15	ctermbg=233	cterm=NONE
 hi SpellCap	ctermfg=15	ctermbg=233	cterm=NONE
 hi SpellLocal	ctermfg=15	ctermbg=233	cterm=NONE
 hi SpellRare	ctermfg=15	ctermbg=233	cterm=NONE
-hi Statement	ctermfg=207	ctermbg=233	cterm=NONE
+hi Statement	ctermfg=39	ctermbg=233	cterm=NONE
 hi StatusLine	ctermfg=15	ctermbg=4	cterm=NONE
 hi StatusLineNC	ctermfg=0	ctermbg=15	cterm=NONE
 hi StorageClass	ctermfg=10	ctermbg=233	cterm=NONE
