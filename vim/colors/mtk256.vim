@@ -22,7 +22,7 @@ hi LineNr	ctermfg=15	ctermbg=233	cterm=NONE
 hi MatchParen	ctermfg=15	ctermbg=4	cterm=NONE
 hi NonText	ctermfg=15	ctermbg=233	cterm=NONE
 hi Normal	ctermfg=15	ctermbg=233	cterm=NONE
-hi PreProc	ctermfg=75	ctermbg=233	cterm=NONE
+hi PreProc	ctermfg=207	ctermbg=233	cterm=NONE
 hi Pmenu	ctermfg=15	ctermbg=8	cterm=NONE
 hi PmenuSbar	ctermfg=15	ctermbg=233	cterm=NONE
 hi PmenuSel	ctermfg=16	ctermbg=51	cterm=NONE
