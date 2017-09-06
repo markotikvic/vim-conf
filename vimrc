@@ -22,3 +22,6 @@ colorscheme mtk256
 
 " Trailing whitespaces
 match ErrorMsg '\s\+$'
+
+" goimports on save
+let g:go_fmt_command = "goimports"
