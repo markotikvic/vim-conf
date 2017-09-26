@@ -1,6 +1,9 @@
 " pathogen plugin manager
 execute pathogen#infect()
 
+" encoding
+set encoding=utf-8
+
 " indentation
 filetype plugin indent on
 set autoindent
@@ -11,6 +14,7 @@ set incsearch
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrows=0
 
 " Rust specific
 au BufRead,BufNewFile *.rs set filetype=rust
@@ -22,6 +26,3 @@ colorscheme mtk256
 
 " Trailing whitespaces
 match ErrorMsg '\s\+$'
-
-" goimports on save
-let g:go_fmt_command = "goimports"
