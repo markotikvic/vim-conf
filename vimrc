@@ -8,6 +8,8 @@ set encoding=utf-8
 filetype plugin indent on
 set autoindent
 set tabstop=8 shiftwidth=8 noexpandtab
+" continue comments on new lines
+set formatoptions+=r
 
 " search
 set incsearch
