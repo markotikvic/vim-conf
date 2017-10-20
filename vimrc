@@ -18,9 +18,6 @@ set incsearch
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrows=0
 
-" Rust specific
-au BufRead,BufNewFile *.rs set filetype=rust
-
 " Color
 syntax on
 set t_Co=256
@@ -28,3 +25,6 @@ colorscheme mtk256
 
 " Trailing whitespaces
 match ErrorMsg '\s\+$'
+
+" stop scratch window from opening (gocode->neocomplete)
+set completeopt-=preview
