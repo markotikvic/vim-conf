@@ -21,7 +21,7 @@ map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrows=0
 
 " Color
-syntax off
+syntax on
 set t_Co=256
 colorscheme mtk256
 
