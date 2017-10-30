@@ -17,7 +17,8 @@ hi CursorLine	ctermfg=15	ctermbg=233	cterm=NONE
 hi CursorLineNr	ctermfg=15	ctermbg=233	cterm=NONE
 hi Directory	ctermfg=15	ctermbg=233	cterm=NONE
 hi Error	ctermfg=15	ctermbg=9	cterm=NONE
-hi Identifier	ctermfg=15	ctermbg=233	cterm=NONE
+hi Identifier	ctermfg=10	ctermbg=233	cterm=NONE
+hi Function	ctermfg=15	ctermbg=233	cterm=NONE
 hi LineNr	ctermfg=15	ctermbg=233	cterm=NONE
 hi MatchParen	ctermfg=15	ctermbg=4	cterm=NONE
 hi NonText	ctermfg=15	ctermbg=233	cterm=NONE

@@ -21,9 +21,9 @@ map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrows=0
 
 " Color
-syntax off
-"set t_Co=256
-"colorscheme mtk256
+syntax on
+set t_Co=256
+colorscheme mtk256
 
 " Disable Background Color Erase (BCE) so that color schemes
 " render properly when inside 256-color tmux and GNU screen.
