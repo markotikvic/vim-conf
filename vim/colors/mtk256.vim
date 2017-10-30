@@ -11,7 +11,6 @@ let g:colors_name="mtk256"
 hi Boolean	ctermfg=203	ctermbg=233	cterm=NONE
 hi Comment	ctermfg=6	ctermbg=233	cterm=NONE
 hi Constant	ctermfg=112	ctermbg=233	cterm=NONE
-hi STatusLineNC	ctermfg=0	ctermbg=15	cterm=NONE
 hi CursorColumn	ctermfg=15	ctermbg=233	cterm=NONE
 hi CursorLine	ctermfg=15	ctermbg=233	cterm=NONE
 hi CursorLineNr	ctermfg=15	ctermbg=233	cterm=NONE
@@ -35,8 +34,8 @@ hi SpellCap	ctermfg=15	ctermbg=233	cterm=NONE
 hi SpellLocal	ctermfg=15	ctermbg=233	cterm=NONE
 hi SpellRare	ctermfg=15	ctermbg=233	cterm=NONE
 hi Statement	ctermfg=39	ctermbg=233	cterm=NONE
-hi StatusLine	ctermfg=15	ctermbg=4	cterm=NONE
-hi StatusLineNC	ctermfg=0	ctermbg=15	cterm=NONE
+hi StatusLine	ctermfg=0	ctermbg=15	cterm=NONE
+hi StatusLineNC	ctermfg=15	ctermbg=233	cterm=NONE
 hi StorageClass	ctermfg=10	ctermbg=233	cterm=NONE
 hi String	ctermfg=208	ctermbg=233	cterm=NONE
 hi TabFillLine	ctermfg=15	ctermbg=233	cterm=NONE
