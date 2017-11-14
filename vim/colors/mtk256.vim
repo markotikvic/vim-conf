@@ -9,7 +9,7 @@ endif
 let g:colors_name="mtk256"
 
 hi Boolean	ctermfg=13	ctermbg=0	cterm=NONE
-hi Comment	ctermfg=11	ctermbg=0	cterm=NONE
+hi Comment	ctermfg=3	ctermbg=0	cterm=NONE
 hi Constant	ctermfg=46	ctermbg=0	cterm=NONE
 hi CursorColumn	ctermfg=15	ctermbg=0	cterm=NONE
 hi CursorLine	ctermfg=15	ctermbg=0	cterm=NONE
