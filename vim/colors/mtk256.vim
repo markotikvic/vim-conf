@@ -8,8 +8,8 @@ endif
 
 let g:colors_name="mtk256"
 
-hi Boolean	ctermfg=203	ctermbg=0	cterm=NONE
-hi Comment	ctermfg=6	ctermbg=0	cterm=NONE
+hi Boolean	ctermfg=13	ctermbg=0	cterm=NONE
+hi Comment	ctermfg=11	ctermbg=0	cterm=NONE
 hi Constant	ctermfg=46	ctermbg=0	cterm=NONE
 hi CursorColumn	ctermfg=15	ctermbg=0	cterm=NONE
 hi CursorLine	ctermfg=15	ctermbg=0	cterm=NONE
@@ -28,12 +28,12 @@ hi PmenuSbar	ctermfg=15	ctermbg=0	cterm=NONE
 hi PmenuSel	ctermfg=16	ctermbg=51	cterm=NONE
 hi PmenuThumb	ctermfg=15	ctermbg=0	cterm=NONE
 hi Search	ctermfg=15	ctermbg=0	cterm=NONE
-hi Special	ctermfg=203	ctermbg=0	cterm=NONE
+hi Special	ctermfg=13	ctermbg=0	cterm=NONE
 hi SpellBad	ctermfg=15	ctermbg=0	cterm=NONE
 hi SpellCap	ctermfg=15	ctermbg=0	cterm=NONE
 hi SpellLocal	ctermfg=15	ctermbg=0	cterm=NONE
 hi SpellRare	ctermfg=15	ctermbg=0	cterm=NONE
-hi Statement	ctermfg=39	ctermbg=0	cterm=NONE
+hi Statement	ctermfg=87	ctermbg=0	cterm=NONE
 hi StatusLine	ctermfg=15	ctermbg=4	cterm=NONE
 hi StatusLineNC	ctermfg=15	ctermbg=0	cterm=NONE
 hi StorageClass	ctermfg=46	ctermbg=0	cterm=NONE
