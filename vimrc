@@ -36,3 +36,6 @@ match ErrorMsg '\s\+$'
 
 " stop scratch window from opening (gocode->neocomplete)
 set completeopt-=preview
+
+" run go imports on save
+let g:go_fmt_command = "goimports"
