@@ -39,6 +39,6 @@ hi StatusLineNC	ctermfg=231	ctermbg=16	cterm=NONE
 hi StorageClass	ctermfg=207	ctermbg=16	cterm=NONE
 hi String	ctermfg=208	ctermbg=16	cterm=NONE
 hi TabFillLine	ctermfg=231	ctermbg=16	cterm=NONE
-hi Todo		ctermfg=16	ctermbg=11	cterm=NONE
+hi Todo		ctermfg=16	ctermbg=226	cterm=NONE
 hi Type		ctermfg=46	ctermbg=16	cterm=NONE
 hi Visual	ctermfg=231	ctermbg=244	cterm=NONE
