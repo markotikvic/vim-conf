@@ -40,4 +40,4 @@ let g:go_fmt_command = "goimports"
 " show only filename in status line
 set laststatus=2
 "set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
-set statusline=%t\ %y\ %l(%L)\ %p%%
+set statusline=%t\ %y\ %l/%L\ %p%%\ [%P]
