@@ -37,7 +37,7 @@ hi Statement	ctermfg=87	ctermbg=16	cterm=NONE
 hi StatusLine	ctermfg=231	ctermbg=18	cterm=NONE
 hi StatusLineNC	ctermfg=231	ctermbg=236	cterm=NONE
 hi StorageClass	ctermfg=205	ctermbg=16	cterm=NONE
-hi String	ctermfg=154	ctermbg=16	cterm=NONE
+hi String	ctermfg=118	ctermbg=16	cterm=NONE
 hi TabFillLine	ctermfg=231	ctermbg=16	cterm=NONE
 hi Todo		ctermfg=16	ctermbg=226	cterm=NONE
 hi Type		ctermfg=46	ctermbg=16	cterm=NONE
