@@ -14,8 +14,12 @@ set formatoptions+=r
 " search
 set incsearch
 
+" cutom mapping
+map <C-n> :split
+map <C-m> :vsplit
+
 " nerdtree
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 " arrow symobols in directory tree
 let g:NERDTreeDirArrows=0
 
