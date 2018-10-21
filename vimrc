@@ -15,8 +15,8 @@ set formatoptions+=r
 set incsearch
 
 " cutom mapping
-map <C-n> :split
-map <C-m> :vsplit
+map <C-n> :split<CR>
+map <C-m> :vsplit<CR>
 
 " nerdtree
 "map <C-n> :NERDTreeToggle<CR>
