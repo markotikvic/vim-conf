@@ -45,3 +45,10 @@ let g:go_fmt_command = "goimports"
 set laststatus=2
 "set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
 set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
+
+" Find()
+function Find(patern, file)
+	exe "vimgrep ".a:patern." ".a:file
+	exe "vsplit"
+	exe "copen ".&lines/2
+endfunction
