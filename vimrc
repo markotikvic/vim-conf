@@ -47,8 +47,8 @@ set laststatus=2
 set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
 
 " Find()
-function Find(patern, file)
-	exe "vimgrep ".a:patern." ".a:file
-	exe "vsplit"
-	exe "copen ".&lines/2
+set wildignore=*.o,*.obj,*.bak,*.exe,*.aux,*.dvi,*bin,*.elf,*.sh
+function Find(patern)
+	exe "vimgrep ".a:patern." *"
+	exe "copen"
 endfunction
