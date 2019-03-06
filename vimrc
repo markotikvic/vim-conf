@@ -44,11 +44,12 @@ let g:go_fmt_command = "goimports"
 " show only filename in status line
 set laststatus=2
 "set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
-set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
+"set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
+set statusline=%t\ [%{&ff}]\ %l/%L
 
 " Find()
 set wildignore=*.o,*.obj,*.bak,*.exe,*.aux,*.dvi,*bin,*.elf,*.sh
 function Find(patern)
-	exe "vimgrep ".a:patern." *"
+	exe "vimgrep /".a:patern."/ *"
 	exe "copen"
 endfunction
