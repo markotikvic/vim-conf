@@ -26,7 +26,7 @@ let g:NERDTreeDirArrows=0
 " Color
 syntax on
 set t_Co=256
-colorscheme mtk256
+colorscheme simple 
 " Disable Background Color Erase (BCE) so that color schemes
 " render properly when inside 256-color tmux and GNU screen.
 if &term =~ '256color'
@@ -46,10 +46,3 @@ set laststatus=2
 "set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
 "set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
 set statusline=%t\ [%{&ff}]\ %l/%L
-
-" Find()
-set wildignore=*.o,*.obj,*.bak,*.exe,*.aux,*.dvi,*bin,*.elf,*.sh
-function Find(patern)
-	exe "vimgrep /".a:patern."/ *"
-	exe "copen"
-endfunction
