@@ -6,10 +6,10 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-let g:colors_name="mtk256"
+let g:colors_name="simple"
 
 hi Boolean	ctermfg=163	ctermbg=16	cterm=NONE
-hi Comment	ctermfg=40	ctermbg=16	cterm=NONE
+hi Comment	ctermfg=30	ctermbg=16	cterm=NONE
 hi Constant	ctermfg=34	ctermbg=16	cterm=NONE
 hi CursorColumn	ctermfg=15	ctermbg=16	cterm=NONE
 hi CursorLine	ctermfg=15	ctermbg=16	cterm=NONE
