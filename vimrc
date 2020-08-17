@@ -26,7 +26,7 @@ let g:NERDTreeDirArrows=0
 " Color
 syntax on
 set t_Co=256
-colorscheme simple 
+colorscheme simple
 " Disable Background Color Erase (BCE) so that color schemes
 " render properly when inside 256-color tmux and GNU screen.
 if &term =~ '256color'
@@ -45,4 +45,4 @@ let g:go_fmt_command = "goimports"
 set laststatus=2
 "set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
 "set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
-set statusline=%t\ [%{&ff}]\ %l/%L
+set statusline=%t\ [%{&ff}]\ %l/%L\ (%c)
