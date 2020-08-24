@@ -8,9 +8,9 @@ endif
 
 let g:colors_name="simple"
 
-hi Boolean	ctermfg=165	ctermbg=16	cterm=NONE
+hi Boolean	ctermfg=202	ctermbg=16	cterm=NONE
 hi Comment	ctermfg=30	ctermbg=16	cterm=NONE
-hi Constant	ctermfg=46	ctermbg=16	cterm=NONE
+hi Constant	ctermfg=32	ctermbg=16	cterm=NONE
 hi CursorColumn	ctermfg=15	ctermbg=16	cterm=NONE
 hi CursorLine	ctermfg=15	ctermbg=16	cterm=NONE
 hi CursorLineNr	ctermfg=15	ctermbg=16	cterm=NONE
@@ -33,12 +33,12 @@ hi SpellBad	ctermfg=15	ctermbg=16	cterm=NONE
 hi SpellCap	ctermfg=15	ctermbg=16	cterm=NONE
 hi SpellLocal	ctermfg=15	ctermbg=16	cterm=NONE
 hi SpellRare	ctermfg=15	ctermbg=16	cterm=NONE
-hi Statement	ctermfg=45	ctermbg=16	cterm=NONE
+hi Statement	ctermfg=202	ctermbg=16	cterm=NONE
 hi StatusLine	ctermfg=15	ctermbg=18	cterm=NONE
 hi StatusLineNC	ctermfg=15	ctermbg=236	cterm=NONE
 hi StorageClass	ctermfg=165	ctermbg=16	cterm=NONE
-hi String	ctermfg=208	ctermbg=16	cterm=NONE
+hi String	ctermfg=46	ctermbg=16	cterm=NONE
 hi TabFillLine	ctermfg=15	ctermbg=16	cterm=NONE
 hi Todo		ctermfg=16	ctermbg=226	cterm=NONE
-hi Type		ctermfg=46	ctermbg=16	cterm=NONE
+hi Type		ctermfg=32	ctermbg=16	cterm=NONE
 hi Visual	ctermfg=15	ctermbg=244	cterm=NONE
