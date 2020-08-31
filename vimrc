@@ -45,4 +45,4 @@ let g:go_fmt_command = "goimports"
 set laststatus=2
 "set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
 "set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
-set statusline=%t\ [%{&ff}]\ %l/%L\ (%c)
+set statusline=%t%m\ [%{&ff}]\ %l/%L\ (%c)
