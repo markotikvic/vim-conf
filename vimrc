@@ -19,7 +19,7 @@ map <C-n> :split<CR>
 map <C-m> :vsplit<CR>
 
 " nerdtree
-"map <C-n> :NERDTreeToggle<CR>
+map <C-o> :NERDTreeToggle<CR>
 " arrow symobols in directory tree
 let g:NERDTreeDirArrows=0
 
