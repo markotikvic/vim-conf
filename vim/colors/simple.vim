@@ -35,10 +35,10 @@ hi SpellLocal	ctermfg=15	ctermbg=16	cterm=NONE
 hi SpellRare	ctermfg=15	ctermbg=16	cterm=NONE
 hi Statement	ctermfg=202	ctermbg=16	cterm=NONE
 hi StatusLine	ctermfg=15	ctermbg=18	cterm=NONE
-hi StatusLineNC	ctermfg=15	ctermbg=236	cterm=NONE
+hi StatusLineNC	ctermfg=15	ctermbg=16	cterm=NONE
 hi StorageClass	ctermfg=165	ctermbg=16	cterm=NONE
 hi String	ctermfg=46	ctermbg=16	cterm=NONE
 hi TabFillLine	ctermfg=15	ctermbg=16	cterm=NONE
 hi Todo		ctermfg=16	ctermbg=226	cterm=NONE
 hi Type		ctermfg=32	ctermbg=16	cterm=NONE
-hi Visual	ctermfg=15	ctermbg=244	cterm=NONE
+hi Visual	ctermfg=15	ctermbg=8	cterm=NONE
