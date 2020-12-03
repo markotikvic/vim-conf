@@ -18,6 +18,9 @@ set incsearch
 map <C-n> :split<CR>
 map <C-m> :vsplit<CR>
 
+map <C-h> :tabprevious<CR>
+map <C-l> :tabnext<CR>
+
 " nerdtree
 map <C-o> :NERDTreeToggle<CR>
 " arrow symobols in directory tree
@@ -46,3 +49,6 @@ set laststatus=2
 "set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
 "set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
 set statusline=%t%m\ [%{&ff}]\ %l/%L\ (%c)
+
+" automatic Dart file type detection
+au BufRead,BufNewFile *.dart set filetype=dart
