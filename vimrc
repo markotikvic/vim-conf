@@ -21,6 +21,8 @@ map <C-m> :vsplit<CR>
 map <C-h> :tabprevious<CR>
 map <C-l> :tabnext<CR>
 
+nnoremap <tab> <C-w>w
+
 " nerdtree
 map <C-o> :NERDTreeToggle<CR>
 " arrow symobols in directory tree
