@@ -18,7 +18,7 @@ hi Directory	ctermfg=15	ctermbg=16	cterm=NONE
 hi Error	ctermfg=15	ctermbg=196	cterm=NONE
 hi Identifier	ctermfg=46	ctermbg=16	cterm=NONE
 hi Function	ctermfg=15	ctermbg=16	cterm=NONE
-hi LineNr	ctermfg=15	ctermbg=16	cterm=NONE
+hi LineNr	ctermfg=8	ctermbg=16	cterm=NONE
 hi MatchParen	ctermfg=15	ctermbg=18	cterm=NONE
 hi NonText	ctermfg=15	ctermbg=16	cterm=NONE
 hi Normal	ctermfg=15	ctermbg=16	cterm=NONE
