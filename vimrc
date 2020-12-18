@@ -15,6 +15,9 @@ set formatoptions+=r
 " search
 set incsearch
 
+" :e :tabe completion rules
+set wildmode=longest,list,full
+
 " cutom mapping
 map <C-n> :split<CR>
 map <C-m> :vsplit<CR>
