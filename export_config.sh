@@ -1,3 +1,3 @@
 # !/bin/sh
-cp -r ./vim/* /home/marko/.vim
-cp ./vimrc /home/marko/.vimrc
+cp -r vim $HOME/.vim
+cp vimrc $HOME/.vimrc

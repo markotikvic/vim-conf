@@ -28,11 +28,6 @@ nnoremap <C-t> :tabe<CR>:E<CR>:e
 
 nnoremap <tab> <C-w>w
 
-" nerdtree
-map <C-o> :NERDTreeToggle<CR>
-" arrow symobols in directory tree
-let g:NERDTreeDirArrows=0
-
 " Color
 syntax on
 set t_Co=256
