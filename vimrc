@@ -24,7 +24,7 @@ map <C-m> :vsplit<CR>
 
 map <C-h> :tabprevious<CR>
 map <C-l> :tabnext<CR>
-nnoremap <C-t> :tabe<CR>:E<CR>:e 
+nnoremap <C-o> :tabe<CR>:E<CR>:e 
 
 nnoremap <tab> <C-w>w
 
