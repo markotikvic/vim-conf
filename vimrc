@@ -46,11 +46,19 @@ set completeopt-=preview
 " run go imports on save
 let g:go_fmt_command = "goimports"
 
+function! FullModeName()
+	let s:ShortMode=mode()
+	if s:ShortMode == 'n'
+		return '[NORMAL]'
+	elseif s:ShortMode == 'i'
+		return '[INSERT]'
+	else
+		return ''
+	endif
+endfunc
 " show only filename in status line
 set laststatus=2
-"set statusline=%t\ %y%=%l(%L)\|%c\ %p%%
-"set statusline=%t\ %y\ L\:%l/%L\ [%p%%]
-set statusline=%t%m\ [%{&ff}]\ %l/%L\ (%c)
+set statusline=%{FullModeName()}\ %t%m\ %l/%L\:%c\ <%{&ff}>
 
 " automatic Dart file type detection
 au BufRead,BufNewFile *.dart set filetype=dart
