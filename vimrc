@@ -58,7 +58,7 @@ function! FullModeName()
 endfunc
 " show only filename in status line
 set laststatus=2
-set statusline=%{FullModeName()}\ %t%m\ %l/%L\:%c\ <%{&ff}>
+set statusline=%{FullModeName()}\ %t%m\ %l/%L\:%c\ \|\ %{&ff}
 
 " automatic Dart file type detection
 au BufRead,BufNewFile *.dart set filetype=dart
