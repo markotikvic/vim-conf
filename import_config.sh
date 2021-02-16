@@ -1,5 +1,5 @@
 # !/bin/sh
-rm -r vim
+rm -rf vim
 rm vimrc
 
 cp -r $HOME/.vim vim
