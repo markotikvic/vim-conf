@@ -57,8 +57,12 @@ function! FullModeName()
 	endif
 endfunc
 " show only filename in status line
+set cursorline
 set laststatus=2
 set statusline=%{FullModeName()}\ %t%m\ %l/%L\:%c\ \|\ %{&ff}
 
 " automatic Dart file type detection
 au BufRead,BufNewFile *.dart set filetype=dart
+
+" automatic Velocity (Jira) file type detection
+au BufRead,BufNewFile *.vm set filetype=velocity
