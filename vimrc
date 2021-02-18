@@ -57,6 +57,7 @@ function! FullModeName()
 	endif
 endfunc
 " show only filename in status line
+set cursorline
 set laststatus=2
 set statusline=%{FullModeName()}\ %t%m\ %l/%L\:%c\ \|\ %{&ff}
 

@@ -12,7 +12,7 @@ hi Boolean	ctermfg=202	ctermbg=16	cterm=NONE
 hi Comment	ctermfg=28	ctermbg=16	cterm=NONE
 hi Constant	ctermfg=32	ctermbg=16	cterm=NONE
 hi CursorColumn	ctermfg=15	ctermbg=16	cterm=NONE
-hi CursorLine	ctermfg=15	ctermbg=235	cterm=NONE
+hi CursorLine	ctermfg=NONE	ctermbg=235	cterm=NONE
 hi CursorLineNr	ctermfg=15	ctermbg=16	cterm=NONE
 hi Directory	ctermfg=15	ctermbg=16	cterm=NONE
 hi Error	ctermfg=15	ctermbg=196	cterm=NONE
